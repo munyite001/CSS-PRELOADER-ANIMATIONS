@@ -1,0 +1,46 @@
+/* Root styles */
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Preloader */
+.preloader {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* spinner */
+.spinner {
+    height: 100px;
+    width: 100px;
+    border-top: 2px solid magenta;
+    border-radius: 50%;
+    animation: spinner 0.8s linear infinite;
+   
+}
+
+
+@keyframes spinner {
+    0% { rotate: 0deg; }
+    100% { rotate: 360deg; }
+}
+
